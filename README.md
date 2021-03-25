@@ -15,7 +15,7 @@ See under `diagrams` folder.
 * Node v10.24.0
 * Web3.js v1.2.9
 
-## Libaries used
+## Libraries used
 * `truffle-hdwallet-provider`: needed for connecting MetaMask wallet to Truffle
 * `web3`: needed for interacting with ethereum network using http
 
