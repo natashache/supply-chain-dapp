@@ -19,6 +19,25 @@ See under `diagrams` folder.
 * `truffle-hdwallet-provider`: needed for connecting MetaMask wallet to Truffle
 * `web3`: needed for interacting with ethereum network using http
 
+## Run application locally
+* 1. install packages
+```
+npm install
+```
+* 2. start Ganache
+* 3. compile contracts
+```
+truffle compile
+```
+* 4. migrate contracts
+```
+truffle migrate --reset
+```
+* 5. run tests
+```
+truffle test
+```
+
 ## Run client locally
 ```
 npm run start:dev

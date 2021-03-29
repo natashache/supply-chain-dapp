@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 // Define a contract 'Supplychain'
-contract SupplyChain {
+contract SupplyChain is Ownable {
 
   // Define 'owner'
   address owner;
